@@ -1,0 +1,34 @@
+.list{
+    list-style: none;
+}
+.container{
+    display: grid;
+    min-height: 99vh;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 70% 10%;
+}
+.under_container{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: blue;
+}
+.under_container h1{
+    text-align: center;
+    color: white;
+}
+.under_container .input_container{
+    display: flex;
+    justify-content: center;
+}
+.under_container ul{
+    justify-self: center;
+    list-style: none;
+    color: white;
+}
+.item{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.completed{
+    text-decoration: line-through;
+}
